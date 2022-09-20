@@ -1,0 +1,74 @@
+@media (max-width: 768px) {
+    .container{
+        width: 100%;
+    }
+    nav .container .logo h2{
+      font-size: 24px;
+    }
+    nav .container .links a{
+      font-size: 15px;
+    }
+    .hero .content h1{
+        font-size: 34px;
+      }
+      p{
+        font-size: 10px;
+      }
+      button {
+        font-size: 10px;
+    }
+    .catorgy .container{
+        display: flex;
+        padding: 100px 0;
+        flex-direction: column;
+        width: 100%;
+    }
+    .catorgy .top,.catorgy .right{
+        text-align: center;
+    }
+    .catorgy .bottom{
+        display: flex;
+        gap: 40px;
+        padding: 0;
+      }
+    .catorgy .bottom { 
+        display: flex;
+        justify-content: center;
+      }
+    .catorgy .bottom .one , .catorgy .bottom .two{ 
+        width: 50%;
+      }
+      .catorgy .right .img::after {
+        left: 130px;
+    }
+    .women .container{
+        width: 100%;
+    }
+    .women .container .cards{
+        justify-content: center;
+      }
+    .men .container{
+        width: 100%;
+    }
+    .men .container .cards{
+        justify-content: center;
+      }
+      .avone .container{
+        padding: 20px;
+      }
+      .imgs img{
+        width: 100%;
+      }
+      .imgs .right .img3{
+        bottom: 130px;
+      }
+      .hero_footer .container{
+        padding: 10px;
+      }
+      .hero_footer .content h1{
+        font-size: 34px;
+      }
+      .footer .container{
+        padding: 20px;
+      }
+    }
